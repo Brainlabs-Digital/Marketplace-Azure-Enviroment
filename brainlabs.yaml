@@ -1,13 +1,13 @@
 version: v1.1
-name: Migrate from Molzi Azure to Brainlabs Azure Enviroment
-description: We need to migrate our enviroment from Molzi Ltd azure to Brainlabs Ltd azure Enviroment and all VM's and also VM's data as well 
-status: Active
-docs: 
+name: Migrate from Molzi Azure to Brainlabs Azure Environment
+description: We are migrating our Azure environment from Molzi Ltd (Azure) to Brainlabs Ltd (Azure) while ensuring a seamless transition of all Virtual Machines (VMs), applications, and data. 
+status: building
+docs: https://docs.google.com/document/d/1gxKuZs1tDTGLVR6us1pInYlHxOHjKo2dE0-bGcvu8C4/edit?tab=t.0
 uses-sensitive-data: True
 
 business-owner: mark.stevenson
 
-technical-owner: pradeep.sahu
+technical-owner: pradeep.sahu , Pratiksha.Khanale
 
 maintainers: 
   - pradeep.sahu
@@ -16,8 +16,7 @@ maintainers:
   - Ruchi.Roy
 
 team: amazon-marketplace
-apis:
-  - 
+  
 
 public-info:
   reach: internal-
