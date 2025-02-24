@@ -1,13 +1,16 @@
-version: v1.1
-name: Migrate from Molzi Azure to Brainlabs Azure Environment
-description: We are migrating our Azure environment from Molzi Ltd (Azure) to Brainlabs Ltd (Azure) while ensuring a seamless transition of all Virtual Machines (VMs), applications, and data. 
+version: v1.2
+name: Marketplace Azure Environment
+description: Download Amazon Vendor Central and Amazon Seller Central data to OneDrive for our retail clients. 
 status: building
 docs: https://docs.google.com/document/d/1gxKuZs1tDTGLVR6us1pInYlHxOHjKo2dE0-bGcvu8C4/edit?tab=t.0
 uses-sensitive-data: True
+threat-model: INSERT
+dpo-approved: pending # Insert date when approved YYYY-MM-DD format
+secops-approved: pending # Insert date when approved YYYY-MM-DD format
 
 business-owner: mark.stevenson
 
-technical-owner: pradeep.sahu , Pratiksha.Khanale
+technical-owner: pradeep.sahu
 
 maintainers: 
   - pradeep.sahu
@@ -16,14 +19,21 @@ maintainers:
   - Ruchi.Roy
 
 team: amazon-marketplace
-  
+
+apis:
+  - 
 
 public-info:
-  reach: internal-
+  reach: general-client-tool
   platforms:
-    - Azure-cloud-platform
+    - azure-cloud-platform
 
   release-date: 2025-02-21
 
 deployments:
-  - type: Azure-cloud-platform
+  - type: azure-cloud-platform
+    vm-ips:
+        - 20.58.36.70
+        - 20.90.154.25
+        - 20.254.31.248
+        - 51.142.234.170
