@@ -7,7 +7,7 @@ uses-sensitive-data: True
 
 business-owner: mark.stevenson
 
-technical-owner: pradeep.sahu , Pratiksha.Khanale
+technical-owner: pradeep.sahu
 
 maintainers: 
   - pradeep.sahu
